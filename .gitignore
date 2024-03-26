@@ -1,0 +1,4 @@
+# Ignore Datasets
+
+pdbind-refined-set/
+*.pkl

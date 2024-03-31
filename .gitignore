@@ -2,3 +2,5 @@
 
 pdbind-refined-set/
 *.pkl
+!atom2emb.pkl
+*.pt

@@ -4,9 +4,9 @@ To run this repository on your own the first thing you need to do is download th
 This dataset contains high resolution protein ligand complexes with well characterized binding information. You can read more about the dataset on the website.  
 ## Environment
 Use the yml file to install all required dependencies  
-'''
+```
 conda env create -f environment.yml
-'''
+```
 # Recreating the Results
 ## Walkthoguh
 The notebooks need to be run in a specific order.  

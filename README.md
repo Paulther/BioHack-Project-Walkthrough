@@ -4,8 +4,8 @@ To run this repository on your own the first thing you need to do is download th
 This dataset contains high resolution protein ligand complexes with well characterized binding information. You can read more about the dataset on the website.  
 ## Environment
 To be configured
-#Recreating the Results
-##Walkthoguh
+# Recreating the Results
+## Walkthoguh
 The notebooks need to be run in a specific order.  
 1. Clean Pockets and Examine Ligand Data  
 2. Generate Amino Acid Embeddings  

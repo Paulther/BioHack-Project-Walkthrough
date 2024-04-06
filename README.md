@@ -12,8 +12,14 @@ Use the yml file to install all required dependencies
 ```
 conda env create -f environment.yml
 ```
-# Recreating the Results
-## Walkthoguh
+# Results
+Our model achieved 78% sequence revocery across the entire validation set.
+![fullrecovery](images/fullrecovery.png)  
+There appears to be a slight bias towards over represeneted amino acids and away from under represented amino acids.  
+![AArep](images/AArep.png)  
+As expected, the models performance was better on proteins with a large number of homologs. Interestingly, the average sequence recovery on proteins with no homologs was 30% with some individual proteins achieving 100% sequence recovery. This demonstrates the models ability to generalize to novel protein ligand complexes but is still too limited to be considered a valuable tool for design.  
+![homologs](images/homologs.png)
+## Result Recreation Walkthoguh
 The notebooks need to be run in a specific order.  
 1. Clean Pockets and Examine Ligand Data  
 2. Generate Amino Acid Embeddings  

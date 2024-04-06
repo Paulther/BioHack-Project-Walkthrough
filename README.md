@@ -1,3 +1,4 @@
+![GraphVisulization](images/graph_construction.png)  
 # Introduction
 The reporsitory contains the code for the winning project of the 2023 [BioHack NYC](https://www.biohacknyc.com/) hackathon. Our goal was to use graph neural networks to predict to predict the identity of amino acids within ligand binding pockets.
 ##Inspiration
@@ -17,6 +18,7 @@ The notebooks need to be run in a specific order.
 1. Clean Pockets and Examine Ligand Data  
 2. Generate Amino Acid Embeddings  
 3. Compile Graphs  
-4. Sequence Similarity **Optional**
-5. Model Training  
-6. Model Evaluation  
+4. Writing Fasta **Optional**
+5. Sequence Similarity **Optional**
+6. Model Training  
+7. Model Evaluation  
